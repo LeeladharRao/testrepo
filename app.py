@@ -22,9 +22,6 @@ print("this")
 def portfolio():
     return render_template('portfolio.html')
 
-@app.route("/blog")
-def blog():
-    return render_template('blog.html')
 
 @app.route("/blog")
 def blog():
