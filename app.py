@@ -8,7 +8,10 @@ def home():
 @app.route("/about")
 def about():
     return render_template('about.html')
+print("this is salvation")
+print("This si ")
 
+print("this")
 
 @app.route("/portfolio")
 def portfolio():
